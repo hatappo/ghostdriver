@@ -58,7 +58,7 @@ ext.projectCreator          = "Ivan De Marino (https://github.com/detro)"
 ext.seleniumVersion         = "2.44.0"
 
 dependencies {
-    ["selenium-java", "selenium-remote-driver"].each {
+    [].each {
         compile "org.seleniumhq.selenium:$it:$seleniumVersion"
     }
 }
